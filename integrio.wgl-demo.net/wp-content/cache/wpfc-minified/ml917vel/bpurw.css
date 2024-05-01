@@ -297,7 +297,8 @@
 }
 
 .flaticon-right-arrow:before {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
 }
 
 .flaticon-garbage:before {
@@ -817,19 +818,20 @@
 }
 
 .flaticon-pen-3:before {
-    content: "\f1c5";
+    content: "\270E";
 }
 
 .flaticon-cloud-computing:before {
-    content: "\f1c6";
+    content: "\2601";
 }
 
 .flaticon-code:before {
-    content: "\f1c7";
+    content: "\1F527";
+    font-family: "Flaticon";
 }
 
 .flaticon-nut:before {
-    content: "\f1c8";
+    content: "\2699";
 }
 
 .flaticon-hanger:before {
@@ -841,7 +843,7 @@
 }
 
 .flaticon-idea-1:before {
-    content: "\f1cb";
+    content: "\1F4A1";
 }
 
 .flaticon-app:before {
@@ -2411,7 +2413,9 @@
 }
 
 .fa.fa-file-audio-o:before {
-    content: "\f1c7"
+    content: "\1F527";
+
+    font-family: "Flaticon";
 }
 
 .fa.fa-file-sound-o {
@@ -2420,7 +2424,9 @@
 }
 
 .fa.fa-file-sound-o:before {
-    content: "\f1c7"
+    content: "\1F527";
+
+    font-family: "Flaticon";
 }
 
 .fa.fa-file-video-o {
@@ -5726,7 +5732,8 @@
 }
 
 .fa-file-audio:before {
-    content: "\f1c7"
+    content: "\1F527";
+    font-family: "Flaticon";
 }
 
 .fa-file-code:before {
@@ -7930,7 +7937,8 @@
 }
 
 .fa-rss-square:before {
-    content: "\f143"
+    content: "\2192";
+    font-size: 1.5em;
 }
 
 .fa-ruble-sign:before {
@@ -11159,14 +11167,17 @@ table:not(:last-child) {
 }
 
 .primary-nav>ul>li>a>span:before {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
     font-family: flaticon;
     color: inherit;
     transition: .3s;
     opacity: 0;
     transform: translateX(-10px);
     position: absolute;
-    left: -25px
+    left: -25px;
+    font-size: 1.5em;
+    margin-left: -5px;
 }
 
 .primary-nav>ul>li>ul:before {
@@ -11280,7 +11291,8 @@ table:not(:last-child) {
 }
 
 .primary-nav ul li ul li>a>span:before {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
     font-family: flaticon;
     color: inherit;
     padding-right: 8px;
@@ -11294,9 +11306,9 @@ table:not(:last-child) {
     margin-right: .875em
 }
 
-.primary-nav > ul > li.menu-item-has-children > a > span > .menu-item_plus:before,
-.primary-nav > ul > li.mega-menu.mega-cat > a > span > .menu-item_plus:before {
-    content: "\f178";
+.primary-nav>ul>li.menu-item-has-children>a>span>.menu-item_plus:before,
+.primary-nav>ul>li.mega-menu.mega-cat>a>span>.menu-item_plus:before {
+    content: "\25bc";
     position: absolute;
     z-index: 1;
     top: 0;
@@ -12004,7 +12016,8 @@ table:not(:last-child) {
 }
 
 .primary-nav ul li ul .menu-item.back:before {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
     font-family: flaticon;
     transform: scaleX(-1);
     display: inline-block;
@@ -15141,7 +15154,8 @@ header.searсh-header .page-title span {
 }
 
 .next-link_wrapper .image_next:before {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
     font-family: "Flaticon";
     font-size: 21px;
     position: absolute;
@@ -16781,7 +16795,8 @@ body li ol {
 }
 
 #comments .comment-reply-link:before {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
     font-family: flaticon;
     display: inline-block;
     padding-right: 10px;
@@ -17316,7 +17331,8 @@ body .comment-form-cookies-consent>label {
 }
 
 .load_more_wrapper .load_more_item span:after {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
     font-family: flaticon;
     margin-left: 10px
 }
@@ -21411,7 +21427,7 @@ body .widget_wgl_posts .recent-posts-widget li:not(:first-child) {
 
 body .widget_wgl_posts .recent-posts-widget .recent-posts-image_wrapper {
     overflow: hidden;
-    margin-right: 30px
+    margin-right: 30px;
 }
 
 body .widget_wgl_posts .recent-posts-widget .recent-posts-image_wrapper,
@@ -22657,7 +22673,8 @@ body .widget_calendar .calendar_wrap tbody td>a:before {
 }
 
 .integrio_module_carousel .slick-next:after {
-    content: "\f143"
+    content: "\2192";
+    font-size: 1.5em;
 }
 
 .integrio_module_carousel:hover .slick-prev {
@@ -24033,7 +24050,7 @@ a .wgl-icon {
 .integrio_module_img_layer.img_layer_animate .img_layer_image_wrapper.flip_y .img_layer_image,
 .integrio_module_img_layer.img_layer_animate .img_layer_image_wrapper.zoom_in .img_layer_image {
     opacity: 1;
-    visibility: visible
+    visibility: visible;
 }
 
 .integrio_module_img_layer.img_layer_animate .img_layer_image_wrapper.slide_big_up .img_layer_image,
@@ -24490,14 +24507,14 @@ a .wgl-icon {
 }
 
 .isotope-filter a:after {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
     font-family: flaticon;
     position: absolute;
     z-index: 1;
     left: -20px;
     opacity: 0;
     transition: all .5s;
-    font-size: 14px;
     visibility: hidden
 }
 
@@ -25947,7 +25964,8 @@ body.page .wgl-container:not(.single_portfolio) .wgl_portfolio_list-container:no
 }
 
 .integrio_module_services_2 .services_link:before {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
     font-family: flaticon;
     position: absolute;
     z-index: 1;
@@ -26169,7 +26187,8 @@ body.page .wgl-container:not(.single_portfolio) .wgl_portfolio_list-container:no
 }
 
 .integrio_module_services_4 .services_link:before {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
     font-family: flaticon;
     position: absolute;
     z-index: 1;
@@ -28050,7 +28069,8 @@ body.page .wgl-container:not(.single_portfolio) .wgl_portfolio_list-container:no
 }
 
 .wpb-js-composer .wgl-container .vc_row .vc_toggle.vc_toggle_color_arrow .vc_toggle_icon:before {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
     font-family: flaticon
 }
 
@@ -28172,7 +28192,8 @@ body.page .wgl-container:not(.single_portfolio) .wgl_portfolio_list-container:no
 }
 
 .wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title .vc_tta-controls-icon.vc_tta-controls-icon-arrow:before {
-    content: "\f143";
+    content: "\2192";
+    font-size: 1.5em;
     font-family: flaticon
 }
 
