@@ -790,7 +790,7 @@
 }
 
 .flaticon-translation:before {
-    content: "\f1be";
+    content: "\1F4C5";
 }
 
 .flaticon-quality-1:before {
@@ -818,20 +818,20 @@
 }
 
 .flaticon-pen-3:before {
-    content: "\270E";
+    content: "\1F9F0";
 }
 
 .flaticon-cloud-computing:before {
-    content: "\2601";
+    content: "\2611";
 }
 
 .flaticon-code:before {
-    content: "\1F527";
+    content: "\1F3E5";
     font-family: "Flaticon";
 }
 
 .flaticon-nut:before {
-    content: "\2699";
+    content: "\1F6D7";
 }
 
 .flaticon-hanger:before {
@@ -843,7 +843,7 @@
 }
 
 .flaticon-idea-1:before {
-    content: "\1F4A1";
+    content: "\1F695";
 }
 
 .flaticon-app:before {
@@ -6645,7 +6645,7 @@
 }
 
 .fa-instagram:before {
-    content: "\f16d"
+    content: "\f16d";
 }
 
 .fa-intercom:before {
@@ -17525,7 +17525,7 @@ body .comment-form-cookies-consent>label {
 }
 
 #scroll_up:after {
-    content: "\f141";
+    content: "\2191";
     display: inline-block;
     font-family: Flaticon;
     font-size: 18px
@@ -22962,10 +22962,10 @@ body .widget_calendar .calendar_wrap tbody td>a:before {
     opacity: 1
 }
 
-.integrio_module_clients.anim-grayscale .clients_image img {
+/* .integrio_module_clients.anim-grayscale .clients_image img {
     filter: grayscale(100%);
     opacity: .2
-}
+} */
 
 .integrio_module_clients.anim-grayscale .clients_image:hover img {
     filter: grayscale(0);
